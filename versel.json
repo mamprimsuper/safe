@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/:id/:tipo/:advertorial/:nome",
+      "destination": "/:id/:tipo/:advertorial/:nome/index.html"
+    },
+    {
+      "source": "/:id/:tipo/:advertorial/:nome/",
+      "destination": "/:id/:tipo/:advertorial/:nome/index.html"
+    }
+  ]
+}
